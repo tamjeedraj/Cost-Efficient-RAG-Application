@@ -90,6 +90,9 @@ def document_hash(text):
 # Ingest Function
 def ingest_document(path):
 
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"Document not found: {path}")
+
     text = load_document(path)
 
     doc_hash = document_hash(text)
