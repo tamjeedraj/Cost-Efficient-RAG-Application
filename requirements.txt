@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-openai
+langchain-google-genai
+chromadb
+sentence-transformers
+pymupdf
+beautifulsoup4
+markdown
+python-dotenv
+tiktoken
+pandas
+numpy
+pydantic
+requests
